@@ -1,13 +1,22 @@
 
 import './App.css';
-
+import Mainfile from './component/Mainfile';
+import SliderImage from './component/SliderImage';
+import MenuBottom from './container/MenuBottom';
 import Base from './core/Base';
+import Menu from "../src/core/Menu";
 function App() {
   return (
-    <Base >
+  <>
+  <div>
+    
+  <Menu />
 
-      <h1>gggg</h1>
-    </Base>
+<MenuBottom />
+    <Mainfile />
+  </div>
+   
+    </>
   );
 }
 
