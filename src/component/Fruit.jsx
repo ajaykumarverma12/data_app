@@ -9,6 +9,7 @@ function Fruit(props) {
       
 
       <div>
+        
 
         <Card style={{ width: '18rem' }} className="cardItem">
           <Card.Title>

@@ -16,7 +16,7 @@ import AccountCircle from '@material-ui/icons/AccountCircle';
 import AddShoppingCartOutlinedIcon from '@material-ui/icons/AddShoppingCartOutlined';
 import { PLACE_HOLDER_IMAGE } from "../../lib/utils";
 import { Location_Icon } from "../../lib/utils";
-import { Login_Image } from "../../lib/utils";
+import { Login_Image,loc } from "../../lib/utils";
 import { Cart_Image } from "../../lib/utils";
 import CartValue from '../../CartValue';
 import Myaccount from '../../component/Myaccount';
@@ -33,7 +33,7 @@ function HamburgerMenu(props) {
 
         <div className={classes.grow} >
 
-            <AppBar position="static" style={{ background: '#FFFFFF', boxShadow: '0px 5px 20px #0000000D' }}>
+            <AppBar position="fixed" style={{ background: '#FFFFFF', boxShadow: '0px 5px 20px #0000000D' }}>
                 <Toolbar>
                     <IconButton
                         edge="start"
@@ -54,18 +54,19 @@ function HamburgerMenu(props) {
 
                     <div>
                         <Typography variant="h6" noWrap style={{ marginLeft: '50px', color: '#000000', fontSize: '16px', marginTop: '8px',marginLeft:'15px' }}>
-                            <img src={Location_Icon} />
-                           Location
+                            <img src={Location_Icon}  />
+                           <span style={{marginLeft:'15px'}}>Location</span> <img src={loc} style={{marginLeft:'10px'}} />
           </Typography>
 
 
 
                     </div>
-                    <div className={classes.search} style={{ color: '#0F75BD', borderRadius: '8px 8px 8px 8px' }}>
-                        <div className={classes.searchIcon}>
+                    <div className={classes.search} style={{ color: '#0F75BD', borderRadius: '8px 8px 8px 8px' }} >
+                        <div className={classes.searchIcon} >
                             <SearchIcon />
                         </div>
-                        <InputBase style={{ fontSize: '14px', color: '#000000',fontFamily:'Nunito' }}
+                        <InputBase 
+                        style={{ fontSize: '14px', color: '#000000',fontFamily:'Nunito' }}
                             placeholder="Search for brand,product or more"
                             classes={{
                                 root: classes.inputRoot,
@@ -164,6 +165,7 @@ const useStyles = makeStyles((theme) => ({
     },
     inputRoot: {
         color: 'inherit',
+
     },
     inputInput: {
         padding: theme.spacing(1, 1, 1, 0),
@@ -171,7 +173,9 @@ const useStyles = makeStyles((theme) => ({
         transition: theme.transitions.create('width'),
         width: '100%',
         [theme.breakpoints.up('md')]: {
-            width: '70ch',
+            width: '90ch',
+            
+            
         },
     },
     sectionDesktop: {

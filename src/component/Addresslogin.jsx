@@ -22,7 +22,7 @@ function Addresslogin() {
             <HamburgerMenu />
             <MDBContainer fluid>
                 <MDBRow>
-                    <MDBCol md="2" style={{ marginLeft: '150px', boxShadow: '0px 3px 6px #00000014', marginTop: '30px' }}>
+                    <MDBCol md="2" style={{ marginLeft: '150px', boxShadow: '0px 3px 6px #00000014', marginTop: '80px' }}>
                         <div style={{ marginRight: '-107px', marginLeft: '-192px' }}>
                         </div>
                         <div style={{ marginTop: '23px', marginBottom: '10px', }}>
@@ -34,7 +34,7 @@ function Addresslogin() {
 
                     </MDBCol>
 
-                    <MDBCol md="8" style={{ boxShadow: '0px 3px 6px #00000014', marginTop: '30px', marginLeft: '20px' }}>
+                    <MDBCol md="8" style={{ boxShadow: '0px 3px 6px #00000014', marginTop: '80px', marginLeft: '20px' }}>
                         <div style={{ marginTop: '25px', marginBottom: '30px' }}>
                             <img src={homeIcon1} />
                             <span style={{ marginLeft: '35px', fontSize: '14px', color: '#222222',fontWeight:'bold' }}>Home</span>

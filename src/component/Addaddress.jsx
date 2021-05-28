@@ -28,9 +28,9 @@ function MyVerticallyCenteredModal(props) {
                         <Form>
                             <Form.Row className="align-items-center">
                                 <Col ls="auto">
-                                    <Form.Label style={{ marginTop: '10px', marginLeft: '15px', fontSize: '14px', color: '#222222' }}>Area/Locality</Form.Label>
+                                    <Form.Label style={{ marginTop: '10px', marginLeft: '7px', fontSize: '14px', color: '#222222' }}>Area/Locality</Form.Label>
 
-                                    <Form.Control style={{ marginLeft: '15px' }}
+                                    <Form.Control style={{ marginLeft: '7px' }}
                                         className="mb-2"
                                         placeholder="Search Area"
                                     />
@@ -40,16 +40,16 @@ function MyVerticallyCenteredModal(props) {
                                 </Col>
                             </Form.Row>
                             <Form.Group >
-                                <Form.Label style={{ marginTop: '28px', marginLeft: '15px', fontSize: '14px', color: '#222222' }}>Full Name</Form.Label>
-                                <Form.Control type="text" placeholder="Enter Full Name" style={{ marginLeft: '15px' }} />
+                                <Form.Label style={{ marginTop: '28px', marginLeft: '7px', fontSize: '14px', color: '#222222' }}>Full Name</Form.Label>
+                                <Form.Control type="text" placeholder="Enter Full Name" style={{ marginLeft: '7px' }} />
 
                             </Form.Group>
 
                             <Form.Group controlId="formBasicPassword">
-                                <Form.Label style={{ marginTop: '25px', marginLeft: '15px', fontSize: '14px', color: '#222222' }}>Complete Address</Form.Label>
-                                <Form.Control type="text" placeholder="Enetr Complete Address" style={{ marginLeft: '15px' }} />
+                                <Form.Label style={{ marginTop: '25px', marginLeft: '7px', fontSize: '14px', color: '#222222' }}>Complete Address</Form.Label>
+                                <Form.Control type="text" placeholder="Enetr Complete Address" style={{ marginLeft: '7px' }} />
                             </Form.Group>
-                            <div style={{ marginTop: '35px', marginLeft: '15px' }}>
+                            <div style={{ marginTop: '35px', marginLeft: '7px' }}>
                                 {['radio'].map((type) => (
                                     <div key={`inline-${type}`} className="mb-3">
                                         <Form.Check inline Label="1" type={type} id={`inline-${type}-1`} name="formHorizontalRadios" />Home
@@ -59,7 +59,7 @@ function MyVerticallyCenteredModal(props) {
                                 ))}
                             </div>
 
-                            <center><Button variant="success" style={{ padding: '10px 70px', marginTop: '35px', borderRadius: '8px 8px 8px 8px' }}>Continue Shopping</Button> </center>
+                            <center><Button variant="success" style={{ padding: '10px 60px', marginTop: '35px', borderRadius: '8px 8px 8px 8px' }}>Continue Shopping</Button> </center>
 
                         </Form>
 

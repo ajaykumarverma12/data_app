@@ -52,5 +52,6 @@ export const  redlabel2= "assets/image/ared.jpg"
 export const  redlabel4= "assets/image/tea-powder-500x500.jpg"
 export const  cross= "assets/image/Group 3329.svg"
 export const  paytm= "assets/image/1200px-Paytm_Logo_(standalone).svg.svg"
+export const  loc= "assets/image/Group 10.svg"
 
 

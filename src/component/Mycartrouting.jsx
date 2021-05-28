@@ -21,7 +21,7 @@ const Mycartrouting = () => {
         
       
 
-            <MDBContainer fluid className="text-center text-md-left" style={{ marginTop: '36px' }}>
+            <MDBContainer fluid className="text-center text-md-left" style={{ marginTop: '70px' }}>
                 <MDBRow>
                     <MDBCol md="11">
                     <div style={{marginLeft:'150px',marginTop:"5px",borderRadius:'2px 2px 2px 2px',color:'#FFFFFF',opacity:'100%',boxShadow:'0px 2px 8px  #00000014',padding:'10px'}}>

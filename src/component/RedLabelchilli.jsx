@@ -24,7 +24,7 @@ const RedLabelchilli = (props) => {
 
                         <ul>
 
-                            <li>  <img src={redlabel1} className="redtea" style={{ marginTop: '15px', marginBottom: '-16px' }} /></li>
+                            <li>  <img src={redlabel1} className="redtea" style={{ marginTop: '25px', marginBottom: '-16px' }} /></li>
                         </ul>
                         <ul>
                             <li><img src={redlabel2} className="redtea" style={{ marginBottom: '-16px' }} /></li>
@@ -41,7 +41,7 @@ const RedLabelchilli = (props) => {
                     <MDBRow>
                         <MDBCol md="2">
                             <div >
-                                <img src={redlabel} style={{ borderColor: '#707070', border: '0.2px solid', borderRadius: '2px 2px 2px 2px', marginTop: '24px', width: '380px', height: '432px', width: '380', marginLeft: '-358px' }} />
+                                <img src={redlabel} style={{ borderColor: '#707070', border: '0.2px solid', borderRadius: '2px 2px 2px 2px', marginTop: '32px', width: '380px', height: '432px', width: '380', marginLeft: '-358px' }} />
                             </div>
                         </MDBCol>
                     </MDBRow>
@@ -49,7 +49,7 @@ const RedLabelchilli = (props) => {
 
 
                     <MDBCol md="5">
-                        <div style={{ marginTop: '25px' }}>
+                        <div style={{ marginTop: '30px' }}>
                             <span style={{ marginLeft: '20px', fontSize: '14px', color: '#000000' }} >Home</span>
                             <span style={{ marginLeft: '20px', fontSize: '14px', color: '#000000' }} >Daily Deals</span>
 
@@ -73,7 +73,7 @@ const RedLabelchilli = (props) => {
                         </div>
                         <Button variant="success" style={{ marginLeft: '24px', marginTop: '20px', padding: '10px 35px', fontSize: '16px', color: '#FFFFFF', fontWeight: 'bold' }}>
                             Add To Cart
-                            <img src={Daily_deals} style={{ marginLeft: '30px' }} />
+                            <img src={Daily_deals} style={{ marginLeft: '30px',background:'white' }} />
                         </Button>{' '}
                         <h6 style={{ marginLeft: '24px', marginTop: '20px', fontWeight: 'bold', color: '#222222', fontSize: '16px' }}>Services</h6>
                         <div style={{ marginLeft: '24px', marginTop: '20px' }}>
@@ -103,7 +103,7 @@ const RedLabelchilli = (props) => {
 
                     </MDBCol>
                     <MDBCol md="2">
-                        <div style={{ marginTop: '25px' }}>
+                        <div style={{ marginTop: '30px' }}>
                             <h5 style={{ marginLeft: '20px', fontWeight: 'bold', fontSize: '20px', color: '#000000' }} >Beverages</h5>
                             <hr />
                             <p style={{ marginLeft: '20px', fontWeight: 'Nunito', fontSize: '16px', color: '#000000' }}>Cold Drinks</p>

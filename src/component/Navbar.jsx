@@ -9,7 +9,7 @@ const Navbar = () => {
     return (
         <>
 
-            <div className="menu_style">
+            <div className="menu_style" >
               
                 <p to="/cart" className="mycartItem" style={{borderBottom:"5px solid green"}}>My Cart </p>
                 <p to="/mobile" className="mycartItem" >Mobile Verfication</p>

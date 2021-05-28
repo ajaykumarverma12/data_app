@@ -20,7 +20,7 @@ function Addredlabeltea(props) {
         <MDBContainer fluid>
           <MDBRow>
             <MDBCol md="2" style={{ marginLeft: '50px', marginBottom: '50px' }}>
-              <Card style={{ width: '17rem' }} >
+              <Card style={{ width: '17rem' }} className='singlevalue'>
                 <Card.Title>
                   <span className="span_value">{props.offer}</span>
                   <span style={{ fontSize: '12px', fontWeight: 'regular', color: '#03A305' }}>{props.seller}</span>
@@ -41,14 +41,14 @@ function Addredlabeltea(props) {
                       <span style={{ fontSize: '12px', color: '#222222', textDecoration: 'line-through', marginLeft: '8px' }}>MRP: ₹ 150</span>
                       <span style={{ color: '#7DCEA0', marginLeft: '8px', color: '#03A305', fontSize: '12px' }}>Save ₹ 15</span> </div> </p>
 
-                  <Button variant="outline" style={{borderColor:' #03A305'}} className="deals_button" >
+                  <Button variant="outline" style={{borderColor:' #03A305',height:'40px',width:'95px'}} className="deals_button" >
                     <span style={{ fontSize: '12px', color: '#03A305', fontWeight: 'bold' }}>Add to</span>  <img src={Daily_deals} /></Button>{' '}
                 </Card.Body>
 
               </Card>
             </MDBCol>
             <MDBCol md="2" style={{ marginLeft: '30px' }}>
-              <Card style={{ width: '18rem' }} >
+              <Card style={{ width: '18rem' }} className='singlevalue' >
                 <Card.Title>
                   <span className="span_value">{props.offer}</span>
                   <span style={{ fontSize: '12px', fontWeight: 'regular', color: '#03A305' }}>{props.seller}</span>
@@ -77,7 +77,7 @@ function Addredlabeltea(props) {
             </MDBCol>
 
             <MDBCol md="2" style={{ marginLeft: '50px' }}>
-              <Card style={{ width: '18rem' }} >
+              <Card style={{ width: '18rem' }} className='singlevalue' >
                 <Card.Title>
                   <span className="span_value">{props.offer}</span>
                   <span style={{ fontSize: '12px', fontWeight: 'regular', color: '#03A305' }}>{props.seller}</span>
@@ -105,7 +105,7 @@ function Addredlabeltea(props) {
               </Card>
             </MDBCol>
             <MDBCol md="2" style={{ marginLeft: '50px' }}>
-              <Card style={{ width: '18rem' }} >
+              <Card style={{ width: '18rem' }} className='singlevalue' >
                 <Card.Title>
                   <span className="span_value">{props.offer}</span>
                   <span style={{ fontSize: '12px', fontWeight: 'regular', color: '#03A305' }}>{props.seller}</span>
@@ -133,7 +133,7 @@ function Addredlabeltea(props) {
               </Card>
             </MDBCol>
             <MDBCol md="2" style={{ marginLeft: '50px' }}>
-              <Card style={{ width: '18rem' }} >
+              <Card style={{ width: '18rem' }} className='singlevalue'>
                 <Card.Title>
                   <span className="span_value">{props.offer}</span>
                   <span style={{ fontSize: '12px', fontWeight: 'regular', color: '#03A305' }}>{props.seller}</span>

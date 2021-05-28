@@ -90,7 +90,7 @@ const CartValue = () => {
                         <Popover.Content style={{ width: '505px', background: 'white' }}>
                         <div style={{ boxShadow: '0px 2px 8px  #00000014'}}>
 
-                            <p style={{ marginTop: '160px', fontWeight: 'bold', fontSize: '14px',color:'#222222' }}>Sub Total
+                            <p style={{ marginTop: '140px', fontWeight: 'bold', fontSize: '14px',color:'#222222' }}>Sub Total
                              <span style={{ float: 'right' }}>360 /-</span></p>
                             <p style={{ fontWeight: 'bold', fontSize: '14px',marginTop:'13px', fontSize: '14px',color:'#222222' }}>Delivery Charges
                              <span style={{ float: 'right' }}>49 /-</span></p>

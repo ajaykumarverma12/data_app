@@ -20,7 +20,7 @@ const Mobileverification = () => {
 
             <HamburgerMenu />
           
-            <MDBContainer fluid className="text-center text-md-left" style={{ marginTop: '32px' }}>
+            <MDBContainer fluid className="text-center text-md-left" style={{ marginTop: '70px' }}>
 
                 <MDBRow>
                     <MDBCol md="11">

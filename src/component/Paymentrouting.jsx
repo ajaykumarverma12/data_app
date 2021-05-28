@@ -19,7 +19,7 @@ const Paymentrouting = () => {
             <MDBContainer fluid className="text-center text-md-left">
                 <MDBRow>
                     <MDBCol md="11">
-                        <div style={{ marginLeft: '150px', marginTop: "10px", borderRadius: '2px 2px 2px 2px', color: '#FFFFFF', opacity: '100%', boxShadow: '0px 2px 8px  #00000014', padding: '10px' }}>
+                        <div style={{ marginLeft: '150px', marginTop: "70px", borderRadius: '2px 2px 2px 2px', color: '#FFFFFF', opacity: '100%', boxShadow: '0px 2px 8px  #00000014', padding: '10px' }}>
                             <div style={{ maxHeight: "45px", marginBottom: "10px", marginTop: "20px" }}>
                                 <ListGroup horizontal className="nchange_13" >
                                     <ListGroup.Item className="listing" style={{ border: "none", borderBottom: "5px solid green", color: "#03A305" }}>My cart</ListGroup.Item>

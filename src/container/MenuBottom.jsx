@@ -7,9 +7,11 @@ import '../App.css';
 function MenuBottom() {
   return (
     <>
-          <div style={{color: '#FFFFFF', boxShadow: '0px 4px 8px  #00000014' }}>
 
-      <Navbar bg="light" expand="lg" style={{ marginLeft: '189px' }}>
+
+          <div  style={{color: '#FFFFFF', boxShadow: '0px 4px 8px  #00000014',marginTop:'80px' }}>
+
+      <Navbar bg="light" expand="lg" style={{ marginLeft: '189px' }} >
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
